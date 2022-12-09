@@ -1391,8 +1391,8 @@ A VERTICAL event
   float: right;
 }
 /* make the dot closer to the event title */
-.fc-direction-ltr .fc-list-table .fc-list-event-graphic { padding-right: 0 }
-.fc-direction-rtl .fc-list-table .fc-list-event-graphic { padding-left: 0 }
+.fc-direction-ltr .fc-list-table .fc-list-event-graphic { padding-left: 0 }
+.fc-direction-rtl .fc-list-table .fc-list-event-graphic { padding-right: 0 }
 .fc .fc-list-event.fc-event-forced-url {
     cursor: pointer; /* whole row will seem clickable */
   }

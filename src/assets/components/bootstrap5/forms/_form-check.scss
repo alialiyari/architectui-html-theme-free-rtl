@@ -5,7 +5,7 @@
 .form-check {
   display: block;
   min-height: $form-check-min-height;
-  padding-left: $form-check-padding-start;
+  padding-right: $form-check-padding-start;
   margin-bottom: $form-check-margin-bottom;
 
   .form-check-input {
@@ -15,8 +15,8 @@
 }
 
 .form-check-reverse {
-  padding-right: $form-check-padding-start;
-  padding-left: 0;
+  padding-left: $form-check-padding-start;
+  padding-right: 0;
   text-align: right;
 
   .form-check-input {
@@ -118,7 +118,7 @@
 //
 
 .form-switch {
-  padding-left: $form-switch-padding-start;
+  padding-right: $form-switch-padding-start;
 
   .form-check-input {
     width: $form-switch-width;
@@ -144,8 +144,8 @@
   }
 
   &.form-check-reverse {
-    padding-right: $form-switch-padding-start;
-    padding-left: 0;
+    padding-left: $form-switch-padding-start;
+    padding-right: 0;
 
     .form-check-input {
       margin-right: $form-switch-padding-start * -1;

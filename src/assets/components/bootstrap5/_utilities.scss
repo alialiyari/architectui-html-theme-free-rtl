@@ -409,7 +409,7 @@ $utilities: map-merge(
     ),
     "padding-x": (
       responsive: true,
-      property: padding-right padding-left,
+      property: padding-left padding-right,
       class: px,
       values: $spacers
     ),
@@ -427,7 +427,7 @@ $utilities: map-merge(
     ),
     "padding-end": (
       responsive: true,
-      property: padding-right,
+      property: padding-left,
       class: pe,
       values: $spacers
     ),
@@ -439,7 +439,7 @@ $utilities: map-merge(
     ),
     "padding-start": (
       responsive: true,
-      property: padding-left,
+      property: padding-right,
       class: ps,
       values: $spacers
     ),

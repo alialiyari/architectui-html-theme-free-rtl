@@ -50,8 +50,8 @@
 
 .actions-icon-btn {
   .btn-icon-only {
-    padding-left: 0;
     padding-right: 0;
+    padding-left: 0;
 
     .btn-icon-wrapper {
       font-size: 1.3rem;
@@ -81,7 +81,7 @@
   border-bottom-width: 1px;
   padding-top: 0;
   padding-bottom: 0;
-  padding-right: ($card-spacer-x / 2);
+  padding-left: ($card-spacer-x / 2);
   height: 3.5rem;
 
   &.no-border {
