@@ -32,7 +32,7 @@
 
     .app-header {
 
-      margin-left: $app-sidebar-width;
+      margin-right: $app-sidebar-width;
 
       .app-header__logo {
         display: none;
@@ -48,7 +48,7 @@
     &:not(.fixed-header) {
 
       .app-header {
-        margin-left: $app-sidebar-width-collapsed;
+        margin-right: $app-sidebar-width-collapsed;
       }
 
       .app-sidebar {
@@ -62,7 +62,7 @@
           }
 
           .header__pane {
-            margin-right: auto;
+            margin-left: auto;
           }
         }
       }

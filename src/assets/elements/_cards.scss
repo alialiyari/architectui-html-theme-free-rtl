@@ -36,7 +36,7 @@
 }
 
 .btn-actions-pane-right {
-  margin-left: auto;
+  margin-right: auto;
   white-space: nowrap;
 
   a {
@@ -45,7 +45,7 @@
 }
 
 .btn-actions-pane-left {
-  margin-right: auto;
+  margin-left: auto;
 }
 
 .actions-icon-btn {
@@ -97,7 +97,7 @@
   &.card-header-tab {
     .nav {
       width: auto;
-      margin-left: auto;
+      margin-right: auto;
     }
 
     .card-header-title {
@@ -109,11 +109,11 @@
 
   .header-icon {
     font-size: ($font-size-lg * 1.5);
-    margin-right: ($card-spacer-x / 2);
+    margin-left: ($card-spacer-x / 2);
   }
 
   & > .nav {
-    margin-left: -($card-spacer-x / 2);
+    margin-right: -($card-spacer-x / 2);
     height: 100%;
     width: 100%;
 

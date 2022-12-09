@@ -131,7 +131,7 @@
     right: auto;
     left: 100%;
     margin-top: 0;
-    margin-left: var(--#{$prefix}dropdown-spacer);
+    margin-right: var(--#{$prefix}dropdown-spacer);
   }
 
   .dropdown-toggle {
@@ -148,7 +148,7 @@
     right: 100%;
     left: auto;
     margin-top: 0;
-    margin-right: var(--#{$prefix}dropdown-spacer);
+    margin-left: var(--#{$prefix}dropdown-spacer);
   }
 
   .dropdown-toggle {

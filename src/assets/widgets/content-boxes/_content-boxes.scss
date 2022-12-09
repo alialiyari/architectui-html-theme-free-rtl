@@ -29,7 +29,7 @@ $widget-spacer: $spacer;
   }
 
   .widget-content-right {
-    margin-left: auto;
+    margin-right: auto;
   }
 
   .widget-numbers {
@@ -55,7 +55,7 @@ $widget-spacer: $spacer;
       align-items: center;
 
       .sub-label-right {
-        margin-left: auto;
+        margin-right: auto;
       }
     }
   }
